@@ -57,7 +57,7 @@ export default function MovieApp() {
 
     const handleNextPage = (): void => {
         setCurrentPage((prevPage) => prevPage + 1);
-        window.scrollTo({ top: 300, behavior: 'smooth' });
+        window.scrollTo({ top: 310, behavior: 'smooth' });
     };
 
     const handlePreviousPage = (): void => {
