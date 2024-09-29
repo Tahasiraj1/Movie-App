@@ -87,6 +87,7 @@ export default function MovieApp() {
         } finally {
         setLoading(false);
         }
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
     const handleChange = (e: ChangeEvent<HTMLInputElement>): void => {
