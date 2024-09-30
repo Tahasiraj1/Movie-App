@@ -106,7 +106,7 @@ export default function MovieApp() {
             backgroundImage: `url('/movie.jpg')`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',
-            backgroundRepeat: 'repeat'
+            backgroundAttachment: 'fixed'
         }}
         >
             <header className='absolute top-0 w-full p-6 bg-red-900 text-left text-gray-50 rounded-sm'
