@@ -118,7 +118,7 @@ export default function MovieApp() {
             >
                 <div className='flex flex-row justify-between relative items-center w-full'>
                     <div className='flex flex-row justify-between items-center'>
-                    <h1 className='text-3xl font-bold mr-1'>MoviesHub</h1>
+                    <h1 className='text-3xl font-bold mr-1'>MovieVerse</h1>
                     <PiFilmSlateFill size={50} />
                     </div>
                     <div className='flex justify-end items-center space-x-2'>
